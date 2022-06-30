@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(multifiles)
+project(multi_source)
 
 aux_source_directory(
     .
@@ -15,7 +15,7 @@ aux_source_directory(
 message(${ALL_SOURCE_LIST})
 
 add_executable(
-    multifiles
+    multi_source
     ${ALL_SOURCE_LIST}
 )
 
