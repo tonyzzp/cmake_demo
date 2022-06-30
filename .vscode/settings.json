@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.in": "cpp",
+        "MYNAME.H": "cpp"
+    }
+}

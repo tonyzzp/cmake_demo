@@ -1,0 +1,3 @@
+#pragma once
+
+#define VERSION "${opt_project_version}"
