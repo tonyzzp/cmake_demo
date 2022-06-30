@@ -1,0 +1,3 @@
+void libfunc_main()
+{
+}
