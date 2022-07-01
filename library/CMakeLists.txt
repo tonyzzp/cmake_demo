@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
 
-project(library)
+project(demo)
 
 # dll
 # 生成dll,如果源代码有导出方法，则也同时会生成一个lib,lib用于link

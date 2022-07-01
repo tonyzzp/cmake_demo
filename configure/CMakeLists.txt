@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(options)
+project(demo)
 
 set(opt_project_version 1.0.0)
 set(opt_project_myname zzp)
 
 add_executable(
-    main
+    demo
     main.c
 )
 
@@ -27,7 +27,7 @@ configure_file(
 )
 
 target_include_directories(
-    main
+    demo
     PRIVATE
     ${PROJECT_BINARY_DIR}
 )
