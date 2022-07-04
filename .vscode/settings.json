@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.in": "cpp",
-        "MYNAME.H": "cpp"
+        "MYNAME.H": "cpp",
+        "jni.h": "c"
     }
 }
